@@ -19,10 +19,10 @@ public class NcR {
 
               */
 
-         return  permutationCalculator(n)/(permutationCalculator(n-r)*permutationCalculator(r));
+         return  factorial(n)/(factorial(n-r)*factorial(r));
      }
 
-     public static int permutationCalculator(int k){
+     public static int factorial(int k){
          int res =1;
          for(int i=1;i<=k;i++){
              res*=i;
