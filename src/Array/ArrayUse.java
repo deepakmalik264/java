@@ -15,7 +15,7 @@ public class ArrayUse {
 
          for(int i=0;i<10;i++){
              int data = s.nextInt();
-             arr[i]= data;
+             arr[i]= data; /// or arr[i] = s.nextInt();
          }
 
          for(int i=0;i<10;i++){
@@ -26,6 +26,40 @@ public class ArrayUse {
          Boolean[] prime = new Boolean[k];
 
          char[] name  = new char[100];
+
+         /*
+
+           How are array stored in memory?
+
+           DataType in Java
+           1: primitive DateType and Non-Primitive DataType
+               int                   array
+               char                  String , Scanner
+               double
+               boolean
+
+
+           2:  int arr[]  = new int[]
+           3:  System.out.println(arr) = [I@______] address
+           4:
+
+
+
+
+
+
+
+
+
+
+
+
+
+          */
+
+
+
+
 
 
 
